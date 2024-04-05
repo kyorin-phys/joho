@@ -1,5 +1,6 @@
 # 情報科学実習python版
 
+### ファイルの内容
 * p1.ipynb 関数のプロット、線形回帰
 * p2.ipynb 区分求積法
 * p3.ipynb 正規分布関数の性質
@@ -8,7 +9,7 @@
 * p7.ipynb 統計関数
 * p9.ipynb 微分方程式の数値解法
   
-必要なライブラリ
+### 必要なライブラリ
 * [matplotlib](https://matplotlib.org/stable/tutorials/index.html) グラフを描く
 * (japanize_matplotlib 日本語でラベルを付けたいとき)
 * numpy [数学関数](https://numpy.org/doc/stable/reference/routines.math.html)、
@@ -22,3 +23,8 @@
 ```
 !pip install ライブラリ名 
 ```
+
+### Google Colaboratory
+gmailなどのアカウントを持っていればすぐに使える。
+データファイルがnotebookと同じフォルダにあってもそのままでは読み込めず、
+ドライブをマウントするという操作が必要になる。
