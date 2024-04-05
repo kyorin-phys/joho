@@ -1,5 +1,7 @@
 # 情報科学実習python版
 
+
+
 ### ファイルの内容
 * p1.ipynb 関数のプロット、線形回帰
 * p2.ipynb 区分求積法
@@ -26,5 +28,19 @@
 
 ### Google Colaboratory
 gmailなどのアカウントを持っていればすぐに使える。
-データファイルがnotebookと同じフォルダにあってもそのままでは読み込めず、
-ドライブをマウントするという操作が必要になる。
+CodeからDownload ZIPでダウンロードして展開した後、google driveにフォルダごとアップロードする。
+データファイルがnotebookと同じフォルダにあってもそのままでは読み込めず、ドライブをマウントするという操作が必要になる。
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+とすると、認証を求められ、許可するとマウントされる。
+右側にフォルダが表示されるが、driveの下にMyDriveがある。
+GoogleDriveからフォルダを作らずにアップロードした場合はMyDrive直下にアップロードしたフォルダがある。notebookと同じフォルダにあるp1.csvを読み込むときは
+```
+file = '/content/drive/MyDrive/joho-main/p1.csv'
+pd.read_csv(file)
+```
+とすれば読み込める。
+
+
