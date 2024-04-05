@@ -1,4 +1,4 @@
-# joho
+# 情報科学実習python版
 
 * p1.ipynb 関数のプロット、線形回帰
 * p2.ipynb 区分求積法
