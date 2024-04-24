@@ -36,8 +36,16 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 とすると、認証を求められ、許可するとマウントされる。
+![許可しますか？](figs/gdrive1.png)
+![アカウントの選択](figs/gdrive2.png)
+![ログインで次へ](figs/gdrive3.png)
+![アクセスで続行](figs/gdrive4.png)
+
+
 右側にフォルダが表示されるが、driveの下にMyDriveがある。
-GoogleDriveからフォルダを作らずにアップロードした場合はMyDrive直下にアップロードしたフォルダがある。notebookと同じフォルダにあるp1.csvを読み込むときは
+![ログインで次へ](figs/gdrive5.png)
+
+GoogleDriveからフォルダを作らずにアップロードした場合はMyDrive直下にアップロードしたフォルダがある。notebookと同じフォルダ(joho-main)にあるp1.csvを読み込むときは
 ```
 file = '/content/drive/MyDrive/joho-main/p1.csv'
 pd.read_csv(file)
