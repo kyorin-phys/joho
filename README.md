@@ -10,7 +10,7 @@
 * p4.ipynb ヘモグロビンの飽和曲線の実験データを理論式に当てはめる
 * p5.ipynb ロジスティック写像　パラメータを変化させて実行する
 * p7.ipynb 統計関数
-* p9.ipynb 微分方程式の数値解法
+* p8.ipynb 微分方程式の数値解法
   
 ### 必要なライブラリ
 * [matplotlib](https://matplotlib.org/stable/tutorials/index.html) グラフを描く
